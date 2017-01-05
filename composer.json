@@ -1,0 +1,22 @@
+{
+	"name"        : "perf/base64-url-encoder",
+	"type"        : "library",
+	"license"     : "MIT",
+	"description" : "Allows to generate URL compliant base64-encoded strings.",
+	"require"     : {
+		"php" : ">=5.3.3"
+	},
+	"require-dev" : {
+		"ext-xdebug"                : "^2.1.0",
+		"phing/phing"               : "^2.0.0",
+		"phpmd/phpmd"               : "^2.0.0",
+		"phpunit/phpunit"           : "^4.0.0",
+		"sebastian/phpcpd"          : "^2.0.0",
+		"squizlabs/php_codesniffer" : "^2.0.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"perf\\Text\\" : "src/perf/Text/"
+		}
+	}
+}
